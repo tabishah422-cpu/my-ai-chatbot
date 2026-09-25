@@ -14,7 +14,7 @@ if api_key:
     client = Groq(api_key=api_key)
     
     # Select model
-    model_name = "llama3-70b-8192" # Ultra fast and accurate model
+    model_name = "llama-3.1-70b-versatile" # Ultra fast and accurate model
 
     # Initialize chat history
     if "messages" not in st.session_state:
